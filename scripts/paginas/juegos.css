@@ -1,0 +1,109 @@
+.juegos-menu{
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 40px;
+    background-color: #1b4241;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.juegos-centro{
+    width:100%;
+    max-width: 1500px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    box-sizing: border-box;
+    background: linear-gradient( #1c4b55, #1b4241);
+}
+
+.juegos-centro img{
+    cursor:pointer;  
+}
+
+.juegos-centro img:hover{
+    filter: invert(35%);
+}
+
+.juegos-centro>div{
+    width:22%;
+    padding-top: 2%;
+    box-sizing: border-box;
+}
+
+.juegos-centro>div:nth-child(1) img{
+    margin-left:0%;
+}
+
+.juegos-centro>div:nth-child(2){
+    padding-top: 12%;
+}
+
+.juegos-centro>div:nth-child(2) img{
+    margin-left:-25%;
+}
+
+.juegos-centro>div:nth-child(3) img{
+    margin-left: -40%;
+}
+
+.juegos-centro>div img{
+    width:100%;
+}
+
+@media only screen and (max-width: 420px) {
+    .juegos-centro{
+        width:100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        box-sizing: border-box;
+    }
+
+    .juegos-centro>div{
+        width:100%;
+        box-sizing: border-box;
+        text-align: center;
+        padding-top: 0%;
+        padding: 10% 0% !important;
+    }
+
+    .juegos-centro>div:nth-child(1) img{
+        margin-left:0%;
+    }
+    
+    .juegos-centro>div:nth-child(2){
+        padding-top:0%;
+    }
+    
+    .juegos-centro>div:nth-child(2) img{
+        margin-left:0%;
+    }
+    
+    .juegos-centro>div:nth-child(3){
+        padding-top:0%;
+    }
+    
+    .juegos-centro>div:nth-child(3) img{
+        margin-left:0%;
+    }
+ 
+    .juegos-centro>div img{
+        width:60%;
+    }
+}
+
+.diferencias{
+    margin-top: 40px;
+}
+
+.rompecabezas{
+    margin-top: 40px;
+}
+
+.iframe-rompecabezas{
+    height: 80vh;
+}
+

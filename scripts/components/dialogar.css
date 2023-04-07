@@ -1,0 +1,689 @@
+.dialogarV1{
+    position: relative;
+}
+
+.dialogarV1-fondo{
+    width:100%;
+}
+
+.dialogarV1-texto{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V2 */
+
+.dialogarV2{
+    position: relative;
+}
+
+.dialogarV2-fondo{
+    width:100%;
+}
+
+.dialogarV2-texto{
+    width:100%;
+    margin-top: 8%;
+}
+
+/* V3 */
+
+.dialogarV3{
+    position: relative;
+}
+
+.dialogarV3-fondo{
+    width:100%;
+}
+
+.dialogarV3-texto{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V4 */
+
+.dialogarV4{
+    position: relative;
+}
+
+.dialogarV4-fondo{
+    width:100%;
+}
+
+.dialogarV4-texto{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V5 */
+
+.dialogarV5{
+    position: relative;
+}
+
+.dialogarV5-fondo{
+    width:100%;
+}
+
+.dialogarV5-img{
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+.dialogarV5-texto{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V6 */
+
+.dialogarV6{
+    position: relative;
+}
+
+.dialogarV6-fondo{
+    width:100%;
+}
+
+.dialogarV6-texto{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V7 */
+
+.dialogarV7{
+    position: relative;
+}
+
+.dialogarV7-fondo{
+    width:100%;
+}
+
+.dialogarV7-img{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+.dialogarV7-texto{
+    position: absolute;
+    z-index: 3;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V8 */
+
+.dialogarV8{
+    position: relative;
+}
+
+.dialogarV8-fondo{
+    width:100%;
+}
+
+.dialogarV8-texto{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V9 */
+
+.dialogarV9{
+    position: relative;
+}
+
+.dialogarV9-fondo{
+    width:100%;
+}
+
+.dialogarV9-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V10 */
+
+.dialogarV10{
+    position: relative;
+}
+
+.dialogarV10-fondo{
+    width:100%;
+}
+
+.dialogarV10-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V11 */
+
+.dialogarV11{
+    position: relative;
+}
+
+.dialogarV11-fondo{
+    width:100%;
+}
+
+.dialogarV11-reloj{
+    position: absolute;
+    z-index: 3;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+.dialogarV11-img{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V12 */
+
+.dialogarV12{
+    position: relative;
+}
+
+.dialogarV12-fondo{
+    width:100%;
+}
+
+.dialogarV12-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V13 */
+
+.dialogarV13{
+    position: relative;
+}
+
+.dialogarV13-fondo{
+    width:100%;
+}
+
+.dialogarV13-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V14 */
+
+.dialogarV14{
+    position: relative;
+}
+
+.dialogarV14-textos{
+    width:100%;
+}
+
+/* V15 */
+
+.dialogarV15{
+    position: relative;
+}
+
+.dialogarV15-fondo{
+    width:100%;
+}
+
+.dialogarV15-textos{
+    position: absolute;
+    z-index: 4;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+.dialogarV15-img1{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+.dialogarV15-img2{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V16 */
+
+.dialogarV16{
+    position: relative;
+}
+
+.dialogarV16-textos{
+    width:100%;
+}
+
+/* V17 */
+
+.dialogarV17{
+    position: relative;
+}
+
+.dialogarV17-fondo{
+    width:100%;
+}
+
+.dialogarV17-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V18 */
+
+.dialogarV18{
+    position: relative;
+}
+
+.dialogarV18-textos{
+    width:100%;
+}
+
+/* V19 */
+
+.dialogarV19{
+    position: relative;
+}
+
+.dialogarV19-fondo{
+    width:100%;
+}
+
+.dialogarV19-textos{
+    width:100%;
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index: 3;
+}
+
+/* V20 */
+
+.dialogarV20{
+    position: relative;
+}
+  
+.dialogarV20-textos{
+    width:100%;
+}
+
+/* V21 */
+
+.dialogarV21{
+    position: relative;
+}
+
+.dialogarV21-fondo{
+    width:100%;
+}
+
+.dialogarV21-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V22 */
+
+.dialogarV22{
+    position: relative;
+}
+
+.dialogarV22-fondo{
+    width:100%;
+}
+
+.dialogarV22-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+/* V23 */
+
+.dialogarV23{
+    position: relative;
+}
+
+.dialogarV23-fondo{
+    width:100%;
+}
+
+.dialogarV23-img{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+.dialogarV23-textos{
+    position: absolute;
+    z-index: 3;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V24 */
+
+.dialogarV24{
+    position: relative;
+}
+
+.dialogarV24-fondo{
+    width:100%;
+}
+
+.dialogarV24-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V25 */
+
+.dialogarV25{
+    position: relative;
+}
+
+.dialogarV25-fondo{
+    width:100%;
+}
+
+.dialogarV25-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V26 */
+
+.dialogarV26{
+    position: relative;
+}
+
+.dialogarV26-fondo{
+    width:100%;
+}
+
+.dialogarV26-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V27 */
+
+.dialogarV27{
+    position: relative;
+    margin-top:30px;
+}
+
+.dialogarV27-fondo{
+    width:100%;
+}
+
+.dialogarV27-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:-32%;
+    width:100%;
+}
+
+/* V28 */
+
+.dialogarV28{
+    position: relative;
+}
+
+.dialogarV28-textos{
+    width:100%;
+}
+
+/* V29 */
+
+.dialogarV29{
+    position: relative;
+    margin-top:30px;
+}
+
+.dialogarV29-fondo{
+    width:100%;
+}
+
+.dialogarV29-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V30 */
+
+.dialogarV30{
+    position: relative;
+    margin-top:30px;
+}
+
+.dialogarV30-fondo{
+    width:100%;
+}
+
+.dialogarV30-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V31 */
+
+.dialogarV31{
+    position: relative;
+    margin-top:30px;
+}
+
+.dialogarV31-fondo{
+    width:100%;
+}
+
+.dialogarV31-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V32 */
+
+.dialogarV32{
+    position: relative;
+    margin-top:30px;
+}
+
+.dialogarV32-fondo{
+    width:100%;
+}
+
+.dialogarV32-img{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+.dialogarV32-textos{
+    position: absolute;
+    z-index: 3;
+    left: 0px;
+    top:-20%;
+    width:100%;
+}
+
+/* V33 */
+
+.dialogarV33{
+    position: relative;
+    margin-top:30px;
+}
+
+.dialogarV33-fondo{
+    width:100%;
+}
+
+.dialogarV33-img{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+.dialogarV33-textos{
+    position: absolute;
+    z-index: 3;
+    left: 0px;
+    top:-20%;
+    width:100%;
+}
+
+/* V34 */
+
+.dialogarV34{
+    position: relative;
+}
+
+.dialogarV34-textos{
+    width:100%;
+}
+
+/* V35 */
+
+.dialogarV35{
+    position: relative;
+}
+
+.dialogarV35-fondo{
+    width:100%;
+}
+
+/* V36 */
+
+.dialogarV36{
+    position: relative;
+}
+
+.dialogarV36-fondo{
+    width:100%;
+}
+
+.dialogarV36-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V37 */
+
+.dialogarV37{
+    position: relative;
+}
+
+.dialogarV37-textos{
+    width:100%;
+}
+
+/* V38 */
+
+.dialogarV38{
+    position: relative;
+}
+
+.dialogarV38-fondo{
+    width:100%;
+}
+
+.dialogarV38-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+
+
+
+
+

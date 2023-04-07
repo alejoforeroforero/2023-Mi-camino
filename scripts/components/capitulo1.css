@@ -1,0 +1,524 @@
+.cap1V1{
+    position: relative;
+}
+
+.cap1V1-fondo{
+    width:100%;
+}
+
+.cap1V1-mapa{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+.cap1V1-info{
+    position: absolute;
+    z-index: 3;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V2 */
+
+.cap1V2{
+    position: relative;
+}
+
+.cap1V2-fondo{
+    width:100%;
+}
+
+.cap1V2-texto{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V3 */
+
+.cap1V3{
+    position: relative;
+}
+
+.cap1V3-fondo{
+    width:100%;
+}
+
+.cap1V3-texto{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V4 */
+
+.cap1V4{
+    position: relative;
+}
+
+.cap1V4-fondo{
+    width:100%;
+}
+
+.cap1V4-texto{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V5 */
+
+.cap1V5{
+    position: relative;
+}
+
+.cap1V5-fondo{
+    width:100%;
+}
+
+.cap1V5-img{
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+.cap1V5-texto{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V6 */
+
+.cap1V6{
+    position: relative;
+    margin-top: 15px !important;
+}
+
+.cap1V6-fondo{
+    width:100%;
+}
+
+/* V7 */
+
+.cap1V7{
+    position: relative;
+}
+
+.cap1V7-texto{
+    width:100%;
+}
+
+/* V8 */
+
+.cap1V8{
+    position: relative;
+}
+  
+.cap1V8-img1{
+    width:100%;
+    margin-top:10px;
+}
+  
+.cap1V8-img2{
+    width:100%;
+    margin-top:10px;
+}
+
+.cap1V8-img3{
+    width:100%;
+    margin-top:10px;
+}
+
+/* V9 */
+
+.cap1V9{
+    position: relative;
+}
+
+.cap1V9-fondo{
+    width:100%;
+}
+
+.cap1V9-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V10 */
+
+.cap1V10{
+    position: relative;
+}
+
+.cap1V10-fondo{
+    width:100%;
+}
+
+.cap1V10-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V11 */
+
+.cap1V11{
+    position: relative;
+}
+
+.cap1V11-textos{
+    top:0px;
+    width:100%;
+}
+
+.cap1V11-fondo{
+    width:100%;
+}
+
+/* V12 */
+
+.cap1V12{
+    position: relative;
+}
+
+.cap1V12-fondo{
+    width:100%;
+}
+
+.cap1V12-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V13 */
+
+.cap1V13{
+    position: relative;
+}
+
+.cap1V13-fondo{
+    width:100%;
+}
+
+.cap1V13-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V14 */
+
+.cap1V14{
+    position: relative;
+}
+
+.cap1V14-fondo{
+    width:100%;
+}
+
+.cap1V14-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V15 */
+
+.cap1V15{
+    position: relative;
+    margin-top: 180px!important;
+}
+
+.cap1V15-fondo{
+    width:100%;
+}
+
+.cap1V15-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V16 */
+
+.cap1V16{
+    position: relative;
+}
+
+.cap1V16-fondo{
+    width:100%;
+}
+
+.cap1V16-textos{
+    width:100%;
+}
+
+/* V17 */
+
+.cap1V17{
+    position: relative;
+}
+
+.cap1V17-fondo{
+    width:100%;
+}
+
+.cap1V17-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V18 */
+
+.cap1V18{
+    position: relative;
+}
+
+.cap1V18-fondo{
+    width:100%;
+}
+
+.cap1V18-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V19 */
+
+.cap1V19{
+    position: relative;
+    margin-top:30px;
+}
+
+.cap1V19-fondo{
+    width:100%;
+}
+
+.cap1V19-textos{
+    width:100%;
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index: 3;
+}
+
+.cap1V19-rostro{
+    width:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:2;
+}
+
+/* V20 */
+
+.cap1V20{
+    position: relative;
+    margin-top:30px;
+}
+  
+.cap1V20 img{
+    width:100%;
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+.cap1V20-img1{
+    position: relative !important;
+}
+
+/* V21 */
+
+.cap1V21{
+    position: relative;
+}
+
+.cap1V21-fondo{
+    width:100%;
+}
+
+.cap1V21-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V22 */
+
+.cap1V22{
+    position: relative;
+    margin-top:30px;
+}
+
+.cap1V22 img{
+    width:100%;
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+.cap1V22-img1{
+    position: relative !important;
+}
+
+/* V23 */
+
+.cap1V23{
+    position: relative;
+    margin-top:30px;
+}
+
+.cap1V23 img{
+    width:100%;
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+.cap1V23-img1{
+    position: relative !important;
+}
+
+/* V24 */
+
+.cap1V24{
+    position: relative;
+}
+
+.cap1V24-fondo{
+    width:100%;
+}
+
+.cap1V24-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V25 */
+
+.cap1V25{
+    position: relative;
+}
+
+.cap1V25-fondo{
+    width:100%;
+}
+
+.cap1V25-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V26 */
+
+.cap1V26{
+    position: relative;
+}
+
+.cap1V26-fondo{
+    width:100%;
+}
+
+.cap1V26-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* V27 */
+
+.cap1V27{
+    position: relative;
+    margin-top:30px;
+}
+
+.cap1V27-textos{
+    width:100%;
+    z-index: 3;
+}
+
+/* V28 */
+
+.cap1V28{
+    position: relative;
+}
+
+.cap1V28-fondo{
+    width:100%;
+}
+
+.cap1V28-textos{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* Cap 1 Preguntas */
+
+.cap1Preguntas{
+    position: relative;  
+    background-color: rgb(236, 242, 255); 
+}
+
+/* SiguienteCap */
+
+.siguienteCap{
+
+}
+
+.siguienteCap img{
+    width:60%;
+    margin: auto;
+    cursor: pointer;
+
+}
+
+

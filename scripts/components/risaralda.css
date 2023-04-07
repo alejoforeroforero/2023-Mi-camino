@@ -1,0 +1,75 @@
+/* V1 */
+
+.risaralda-div-inicial{
+    height: 120px;
+}
+
+.risaraldaV1{
+    position: relative;
+}
+
+.risaraldaV1-fondo{
+    width:100%;
+}
+
+.risaraldaV1-texto{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* v2 */
+
+.risaraldaV2{
+    position: relative;
+}
+
+.risaraldaV2-fondo{
+    width:100%;
+}
+
+.risaraldaV2-texto{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* v3 */
+
+.risaraldaV3{
+    position: relative;
+}
+
+.risaraldaV3-fondo{
+    width:100%;
+}
+
+.risaraldaV3-texto{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* v4 */
+
+.risaraldaV4{
+    position: relative;
+}
+
+.risaraldaV4-fondo{
+    width:100%;
+}
+
+.risaraldaV4-texto{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}

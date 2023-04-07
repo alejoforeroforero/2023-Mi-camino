@@ -1,0 +1,63 @@
+.creditos-menu{
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 40px;
+    background-color: #295771;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.creditos-centro{
+    width:100%;
+    max-width: 1500px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    box-sizing: border-box;
+    background: linear-gradient( #295771, #1b4241);
+}
+
+.creditos-centro>div{
+    width:100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10%;
+}
+
+@media only screen and (max-width: 420px) {
+    .creditos-centro{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+    }
+}
+
+.creditos-c{
+    padding: 4% 8%;
+    color:aliceblue; 
+}
+
+.creditos-c p{
+    font-size: 1rem;
+    line-height: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+}
+
+.creditos-c img{
+    width:80%;
+}
+
+.creditos-c h1{
+    font-size: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    margin: 30px 0px 4px 0px;
+}
+
+@media only screen and (max-width: 700px) {
+    .creditos-c p{
+        font-size: 0.8rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    }
+}

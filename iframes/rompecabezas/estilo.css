@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Pink Chicken';
+  src:url('../../assets/fuentes/PinkChicken-Regular.ttf');
+}
+
+html, body {
+  margin: 1vh 0 0 0;
+  font-family: 'Pink Chicken';
+  height: 90vh;
+  max-height: 90vh;
+  overflow: hidden;
+  overscroll-behavior-y: contain;
+}
+  
+canvas{
+  display: block;
+  margin-top: -40px;
+}
+  
+ 

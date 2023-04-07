@@ -1,0 +1,213 @@
+/* v1 */
+
+.cap3V1{
+    position: relative;
+}
+
+.cap3V1-fondo{
+    width:100%;
+}
+
+.cap3V1-texto{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* v2 */
+
+.cap3V2{
+    position: relative;
+}
+
+.cap3V2-texto{
+    width:100%;
+}
+
+/* v3 */
+
+.cap3V3{
+    position: relative;
+}
+
+.cap3V3-fondo{
+    width:100%;
+}
+
+/* v1 */
+
+.cap3V4{
+    position: relative;
+}
+
+.cap3V4-fondo{
+    width:100%;
+}
+
+.cap3V4-texto{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* v5 */
+
+.cap3V5{
+    position: relative;
+}
+
+.cap3V5-texto{
+    width:100%;
+}
+
+/* v6 */
+
+.cap3V6{
+    position: relative;
+}
+
+.cap3V6-fondo{
+    width:100%;
+}
+
+/* v7 */
+
+.cap3V7{
+    position: relative;
+}
+
+.cap3V7-texto{
+    width:100%;
+}
+
+/* v8 */
+
+.cap3V8{
+    position: relative;
+}
+
+.cap3V8-fondo{
+    width:100%;
+}
+
+.cap3V8-circulo{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* v9 */
+
+.cap3V9{
+    position: relative;
+}
+
+.cap3V9-fondo{
+    width:100%;
+}
+
+.cap3V9-img{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+.cap3V9-texto{
+    position: absolute;
+    z-index: 3;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+
+/* v10 */
+
+.cap3V10{
+    position: relative;
+}
+
+.cap3V10-fondo{
+    width:100%;
+}
+
+.cap3V10-circulo{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+.cap3V10-texto{
+    position: absolute;
+    z-index: 3;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+.cap3V11-texto{
+    width:100%;
+}
+
+/* v12 */
+
+.cap3V12{
+    position: relative;
+}
+
+.cap3V12-fondo{
+    width:100%;
+}
+
+.cap3V12-img{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+.cap3V13{
+    position: relative;
+}
+
+.cap3V13-fondo{
+    position: absolute;
+    z-index: 3;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+.cap3V13-img{
+    width:100%;
+}
+
+/* v14 */
+
+.cap3V14{
+    position: relative;
+}
+
+.cap3V14-fondo{
+    width:100%;
+}
+
+.cap3V14-texto{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+

@@ -1,0 +1,81 @@
+/* V1 */
+
+.cafetal-div-inicial{
+    height: 120px;
+}
+
+.cafetalV1{
+    position: relative;
+}
+
+.cafetalV1-fondo{
+    width:100%;
+}
+
+.cafetalV1-texto{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* v2 */
+
+.cafetalV2{
+    position: relative;
+}
+
+.cafetalV2-fondo{
+    width:100%;
+}
+
+.cafetalV2-texto{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:-7%;
+    width:100%;
+}
+
+/* v3 */
+
+.cafetalV3{
+    position: relative;
+}
+
+.cafetalV3-fondo{
+    width:100%;
+}
+
+.cafetalV3-texto{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* v4 */
+
+.cafetalV4{
+    position: relative;
+}
+
+.cafetalV4-fondo{
+    width:100%;
+}
+
+.cafetalV4-texto{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+.opciones-cafetal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

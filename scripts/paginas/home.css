@@ -1,0 +1,129 @@
+.home-capitulos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #f3f2f2;
+}
+
+.home-capitulos div{  
+    width:30%;
+    overflow: hidden;
+    cursor: pointer;    
+}
+
+.home-menu{
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 40px;
+    background-color: blue;
+    background: linear-gradient( #77b26a, #439453);
+    max-width: 1500px;
+    margin: auto;
+}
+
+.home-centro{
+    width:100%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    box-sizing: border-box;
+}
+
+.home-centro img{
+    cursor:pointer;  
+}
+
+.home-centro img:hover{
+    filter: invert(35%);
+}
+
+.home-centro>div{
+    width:18%;
+    padding-top: 4%;
+    box-sizing: border-box;
+}
+
+.home-centro>div:nth-child(1) img{
+    margin-left:25%;
+}
+
+.home-centro>div:nth-child(2){
+    padding-top: 24%;
+}
+
+.home-centro>div:nth-child(2) img{
+    margin-left:-25%;
+}
+
+.home-centro>div:nth-child(3){
+    padding-top: 8%;
+}
+
+.home-centro>div:nth-child(3) img{
+    margin-left: -40%;
+}
+
+.home-centro>div:nth-child(4){
+    padding-top: 28%;
+}
+
+.home-centro>div:nth-child(4) img{
+    margin-left: -120%;
+}
+
+.home-centro>div img{
+    width:100%;
+}
+
+@media only screen and (max-width: 420px) {
+    .home-centro{
+        margin: auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        box-sizing: border-box;
+    }
+
+    .home-centro>div{
+        width:100%;
+        box-sizing: border-box;
+        text-align: center;
+        padding-top: 0%;
+        padding: 10% 0% !important;
+    }
+
+    .home-centro>div:nth-child(1) img{
+        margin-left:0%;
+    }
+    
+    .home-centro>div:nth-child(2){
+        padding-top:0%;
+    }
+    
+    .home-centro>div:nth-child(2) img{
+        margin-left:0%;
+    }
+    
+    .home-centro>div:nth-child(3){
+        padding-top:0%;
+    }
+    
+    .home-centro>div:nth-child(3) img{
+        margin-left:0%;
+    }
+    
+    .home-centro>div:nth-child(4){
+        padding-top:0%;
+    }
+    
+    .home-centro>div:nth-child(4) img{
+        margin-left:0%;
+    }
+
+    .home-centro>div img{
+        width:60%;
+    }
+}

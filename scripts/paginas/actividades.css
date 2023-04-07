@@ -1,0 +1,25 @@
+.actividades{
+    padding: 8%;
+    width:100%;
+    max-width: 1500px;
+    background: linear-gradient( #77b26a, #439453);
+    background-color: #77b26a;
+}
+
+.actividades-menu{
+    padding-top: 40px;
+    background-color: #77b26a;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.actividades img{
+    width:60%;
+}
+
+.actividades h1{
+    font-size: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    margin: 30px 0px 4px 0px;
+}
+

@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Pink Chicken';
+    src:url('./fuentes/PinkChicken-Regular.ttf');
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Pink Chicken';    
+}
+
+h1{
+    font-size: 1.4rem;
+    padding: 10px;
+}
+
+h2{
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+button{
+    cursor:pointer;
+}
+
+#enunciado{
+    background-color: rgb(126, 244, 162);
+    border-radius: 12px;
+    padding: 4%;
+}
+
+.divB{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.respuesta-correcta{
+    margin-left: 12px;
+    color:rgb(114, 207, 134);
+}
+
+.respuesta-incorrecta{
+    margin-left: 12px;
+    color:rgb(243, 110, 110);
+    text-decoration: line-through;
+}

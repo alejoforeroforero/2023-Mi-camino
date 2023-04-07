@@ -1,0 +1,376 @@
+
+@font-face {
+    font-family: 'Pink Chicken';
+    src:url('../../assets/fuentes/PinkChicken-Regular.ttf');
+}
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Pink Chicken';
+}
+
+iframe{   
+    width:100vw;
+    max-width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: auto;
+    border:none;
+}
+
+.iframe-salto{
+    height: 100vh;
+    margin-top: 80px;
+}
+
+@media only screen and (max-height:340px){
+    .iframe-salto{
+        margin-top: 0px;
+        height: 80vh;
+    }
+}
+
+.contenedorM{
+    background-color:#fffffe;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top:0;
+    width:100%;
+}
+
+.contenedor{
+    box-sizing: border-box;
+    text-align: center;
+    width:100vw;
+    padding-bottom: 800px;
+}
+
+.hamburguesa{
+    position: fixed;
+    z-index: 110;
+    left: 0;
+    top:0;
+    width:40px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hamburguesa div{
+    border-top:2px solid #333;
+    height: 6px;
+}
+
+.menu{
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top:1px;
+    width:300px;
+    height: 90vh;
+    transition: 1s;
+    background-color: #f3f2f2;
+}
+
+.menu-lista{
+    text-align: center;
+}
+
+.menu-lista p{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.menu-lista p:hover{
+    background-color: azure;
+}
+
+.cerrar{
+    text-align: right;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+
+.cerrar:hover{
+    color:#fa9c6d;
+}
+
+.oculto{
+    left: -300px;
+}
+
+visible{
+    left:0px;
+}
+
+.titulo{
+    text-align: center;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.5rem;
+    letter-spacing: 8px;
+}
+
+/* background: rgb(167,210,138);
+background-image: linear-gradient(rgba(167,210,138,1), rgba(104,147,78,1)); */
+
+.titulo img{
+    height: 30px;
+}
+
+.img-header{
+    width:100%;
+    max-width: 1500px;
+}
+
+.home-juegos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #fcfcfc;
+}
+
+.home-juegos div{
+    width:30%;
+    overflow: hidden;
+    cursor:pointer;
+}
+
+@media only screen and (max-width: 700px) {
+    .home-juegos div{ 
+        width:80%;
+        margin-bottom: 50px;
+    }
+}
+
+.home-juegos div h1{
+    text-align: center;
+    display: none;
+}
+
+.home-juegos div img{
+    width:100%;
+    border-radius: 2%;
+}
+
+.home-juegos div img:hover{
+    filter: invert(35%);
+}
+
+.div-img-home img{
+    width:100%;
+}
+
+footer{
+    box-sizing: border-box;
+    max-width: 1500px;
+    margin: auto;
+}
+
+footer div img{
+    width:100%;
+}
+
+.footer-azul{
+    background-color: #1b4241;
+}
+
+.footer-verde{
+    background-color: #439453;
+}
+
+@media only screen and (max-width: 700px) {
+
+}
+
+.trailer{
+    position: fixed;
+    left:0px;
+    top:0px;
+    z-index: 200;
+    width:100%;
+    height: 100%;
+    background-color:#3788b2;
+    color:#f3f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trailer div{
+    width: 90%;
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trailer div video{
+    width: 100%;
+    max-height: 90vh;
+}
+
+.x-video{
+    position: absolute;
+    left: -10px;
+    top:-10px;
+    padding: 4px 9px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+    color:#f3f2f2;
+    cursor: pointer;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    transition: 1s;
+    z-index: 200;
+}
+
+.x-video:hover{
+    color:#3578ff;
+    background-color: #f3f2f2;
+    transform: scale(1.1);
+}
+
+.audio-loading{
+    position: fixed;
+    left:0px;
+    top:0px;
+    z-index: 100;
+    width:100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color:#f3f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.audio-loading>div:nth-child(3){
+    border:1px solid red;
+}
+
+
+/***********/
+
+.audio-contenedor{
+    position:fixed;
+    left:0%;
+    bottom:4px;
+    width:100%;
+    height: 40px;
+    z-index: 100;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.audio-contenedor:hover{
+    cursor:pointer;
+}
+
+.audio-contenedor>div{
+    background-color: rgb(30, 30, 30, 0.8);
+    width:40px;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.audio-contenedor img{
+    width:30px;
+}
+
+.seccionContenedor{
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    transition: 2s;
+    transition-timing-function:ease-in-out;
+}
+
+.portada-contenedor-general{
+    text-align: center;
+    width:100%;
+    max-width: 600px;
+    height: 900px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+@media only screen and (max-width: 500px) {
+    .portada-contenedor-general{        
+        height: 600px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .portada-contenedor-general{        
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .portada-contenedor-general{        
+        height: 420px;
+    }
+}
+
+.portada-contenedor{
+    width:100%;
+    margin-top: 40px;
+    position: relative;
+}
+
+.portada-imgs{
+    position:absolute;
+    width:100%;
+    left: 0px;
+    top:0px;
+    visibility: hidden;
+    z-index: 3;
+}
+
+.vineta-contenedor{
+    text-align: center;
+    min-height: 80vh;
+    width:100%;
+    max-width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 600px;
+    overflow-x: hidden;
+}
+
+.vineta-contenedor section{
+    margin-top: 60px;
+}
+
+.vineta-loading{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    z-index: 10;
+}

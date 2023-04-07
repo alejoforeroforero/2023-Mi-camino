@@ -1,0 +1,251 @@
+/* v1 */
+
+.cap2V1{
+    position: relative;
+}
+
+.cap2V1-fondo{
+    width:100%;
+}
+
+.cap2V1-texto{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* v2 */
+
+.cap2V2{
+    position: relative;
+}
+
+.cap2V2-fondo{
+    width:100%;
+}
+
+.cap2V2-texto{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* v3 */
+
+.cap2V3{
+    position: relative;
+}
+
+.cap2V3-fondo{
+    width:100%;
+}
+
+.cap2V3-texto{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* v4 */
+
+.cap2V4{
+    position: relative;
+}
+
+.cap2V4-fondo{
+    width:100%;
+}
+
+.cap2V4-texto{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* v5 */
+
+.cap2V5{
+    position: relative;
+}
+
+.cap2V5-fondo{
+    width:100%;
+    z-index: 1;
+}
+
+.cap2V5-textos{
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    z-index: 3;
+}
+
+.cap2V5-circulo{
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    z-index: 2;
+}
+
+/* v6 */
+
+.cap2V6{
+    position: relative;
+}
+
+.cap2V6-fondo{
+    width:100%;
+}
+
+.cap2V6-texto{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* v7 */
+
+.cap2V7{
+    position: relative;
+}
+
+.cap2V7-fondo{
+    width:100%;
+}
+
+.cap2V7-texto{
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top:0px;
+    width:100%;
+}
+
+/* v8 */
+
+.cap2V8{
+    position: relative;
+}
+
+.cap2V8-fondo{
+    width:100%;
+}
+
+/* v9 */
+
+
+.cap2V9{
+    position: relative;
+}
+
+.cap2V9-fondo{
+    width:100%;
+    z-index: 1;
+}
+
+.cap2V9-img{ 
+    position: absolute;
+    left: 0px;
+    top:0px;
+    width:100%;
+    z-index: 2;
+}
+
+.cap2V9-texto{ 
+    position: absolute;
+    left: 0px;
+    top:0px;
+    width:100%;
+    z-index: 4;
+}
+
+.cap2V10{
+    position: relative;
+}
+
+.cap2V10-fondo{
+    width:100%;
+    z-index: 1;
+}
+
+.cap2V10-texto{
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    z-index: 2;
+}
+
+.decision{
+    background-color: rgb(118, 155, 236);
+    padding: 14px 0;
+    border-radius: 12px;
+}
+
+.p-desicion{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.opciones{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8rem;
+}
+
+.camino{
+    width:50%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.camino img{
+    width:80%;
+}
+
+.camino:hover{
+    background-color: bisque;
+}
+
+.camino:hover img{
+    scale: 0.9; 
+}
+
+.camino p{
+    width:80%;
+    font-size: 16px;
+}
+
+.ayuda{
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.ayuda:hover{
+    background-color: bisque;
+}
+
+.ayuda img{
+    width:40%;  
+}
+  
+
+
+
