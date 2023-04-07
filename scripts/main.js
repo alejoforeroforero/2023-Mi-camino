@@ -252,8 +252,8 @@ function escogerSeccion(){
             yaPintoDialogar = true;
         }  
     }else if(nombrePagina === '#comic'){
-        audioManager.indiceDescarga = 0;
-        audioManager.descargarSonidos('cap1'); 
+        //audioManager.indiceDescarga = 0;
+        //audioManager.descargarSonidos('cap1'); 
         audioManager.pararAudios();
         comicContenedor.style.zIndex = 2;
         comicContenedor.style.opacity = 1; 

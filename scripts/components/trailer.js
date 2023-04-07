@@ -22,7 +22,5 @@ function pintarTrailer(){
     const video = cE('video', divV)
     video.src = './assets/videos/trailer.mp4';
     video.poster = './assets/imgs/poster-video.jpg';
-    video.controls = true;
-
-    
+    video.controls = true;  
 }
