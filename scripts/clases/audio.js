@@ -15,223 +15,223 @@ class AudioManager{
 
     audiosBase = {
         c1V15ConversionArbol:{
-            src:'assets/cap1/audios/v15-conversion-arbol.mp3?n=142',
+            src:'assets/cap1/audios/v15-conversion-arbol.mp3?n=143',
             buffer:null
         },
         c1V0Portada:{
-            src:'assets/cap1/audios/v0-portada.mp3?n=142',
+            src:'assets/cap1/audios/v0-portada.mp3?n=143',
             buffer:null
         },
         c1V1PCuadrito:{
-            src:'assets/cap1/audios/v1-cuadrito.mp3?n=142',
+            src:'assets/cap1/audios/v1-cuadrito.mp3?n=143',
             buffer:null
         },        
         c2V1ArbolMistico:{
-            src:'assets/cap2/audios/v1-arbol-mistico.mp3?n=142',
+            src:'assets/cap2/audios/v1-arbol-mistico.mp3?n=143',
             buffer:null
         },
         c2Ambiente:{
-            src:'assets/cap2/audios/ambiente.mp3?n=142',
+            src:'assets/cap2/audios/ambiente.mp3?n=143',
             buffer:null
         },
         c3Ambiente:{
-            src:'assets/cap3/audios/ambiente.mp3?n=142',
+            src:'assets/cap3/audios/ambiente.mp3?n=143',
             buffer:null
         },
         c1Sapito2:{
-            src:'assets/cap1/audios/sapito2.mp3?n=142',
+            src:'assets/cap1/audios/sapito2.mp3?n=143',
             buffer:null
         },
         salto:{
-            src:'assets/audios/salto.mp3?n=142',
+            src:'assets/audios/salto.mp3?n=143',
             buffer:null
         },
     }
 
     audiosCap1 = {
         c1V1v6v8v14Desierto:{
-            src:'assets/cap1/audios/v2-v6-v8-v14-desierto.mp3?n=142',
+            src:'assets/cap1/audios/v2-v6-v8-v14-desierto.mp3?n=143',
             buffer:null
         },
         c1Sapito1:{
-            src:'assets/cap1/audios/sapito1.mp3?n=142',
+            src:'assets/cap1/audios/sapito1.mp3?n=143',
             buffer:null
         },
         c1Sapito2:{
-            src:'assets/cap1/audios/sapito2.mp3?n=142',
+            src:'assets/cap1/audios/sapito2.mp3?n=143',
             buffer:null
         },
         c1Sapito3:{
-            src:'assets/cap1/audios/sapito3.mp3?n=142',
+            src:'assets/cap1/audios/sapito3.mp3?n=143',
             buffer:null
         }, 
         c1V3Baile:{
-            src:'assets/cap1/audios/v3-baile.mp3?n=142',
+            src:'assets/cap1/audios/v3-baile.mp3?n=143',
             buffer:null
         },
         c1V4v5Motobomba:{
-            src:'assets/cap1/audios/v4-v5-motobomba.mp3?n=142',
+            src:'assets/cap1/audios/v4-v5-motobomba.mp3?n=143',
             buffer:null
         },
         c1V6PasosArena:{
-            src:'assets/cap1/audios/v6-pasos-arena.mp3?n=142',
+            src:'assets/cap1/audios/v6-pasos-arena.mp3?n=143',
             buffer:null
         },
         c1V8Sequia:{
-            src:'assets/cap1/audios/v8-sequia.mp3?n=142',
+            src:'assets/cap1/audios/v8-sequia.mp3?n=143',
             buffer:null
         },
         c1V9Camiones:{
-            src:'assets/cap1/audios/v9-camiones.mp3?n=142',
+            src:'assets/cap1/audios/v9-camiones.mp3?n=143',
             buffer:null
         },
         c1V9Flauta:{
-            src:'assets/cap1/audios/v9-flauta.mp3?n=142',
+            src:'assets/cap1/audios/v9-flauta.mp3?n=143',
             buffer:null
         },
         c1V11v14ArbolMistico:{
-            src:'assets/cap1/audios/v11-v14-arbol-mistico.mp3?n=142',
+            src:'assets/cap1/audios/v11-v14-arbol-mistico.mp3?n=143',
             buffer:null
         },
         c1V16v28Selva:{
-            src:'assets/cap1/audios/v16-v28-selva.mp3?n=142',
+            src:'assets/cap1/audios/v16-v28-selva.mp3?n=143',
             buffer:null
         },
         c1V17Risas:{
-            src:'assets/cap1/audios/v17-risas.mp3?n=142',
+            src:'assets/cap1/audios/v17-risas.mp3?n=143',
             buffer:null
         },
         c1V19v28Mistico:{
-            src:'assets/cap1/audios/v19-v28-mistico.mp3?n=142',
+            src:'assets/cap1/audios/v19-v28-mistico.mp3?n=143',
             buffer:null
         }
     }
 
     audiosCap2 = {        
         c2V5Flauta:{
-            src:'assets/cap2/audios/v5-flauta.mp3?n=142',
+            src:'assets/cap2/audios/v5-flauta.mp3?n=143',
             buffer:null
         },
         c2V8PasosCorriendo:{
-            src:'assets/cap2/audios/v8-pasos-corriendo.mp3?n=142',
+            src:'assets/cap2/audios/v8-pasos-corriendo.mp3?n=143',
             buffer:null
         } 
     }
 
     audiosRisaralda = {        
         risaraldaV1Ambiente:{
-            src:'assets/risaralda/audios/ambiente.mp3?n=142',
+            src:'assets/risaralda/audios/ambiente.mp3?n=143',
             buffer:null
         },
         risaraldaV1Recolecta:{
-            src:'assets/risaralda/audios/v1-recolecta.mp3?n=142',
+            src:'assets/risaralda/audios/v1-recolecta.mp3?n=143',
             buffer:null
         },
         risaraldaV2Sevan:{
-            src:'assets/risaralda/audios/v2-se-van.mp3?n=142',
+            src:'assets/risaralda/audios/v2-se-van.mp3?n=143',
             buffer:null
         }
     }
 
     audiosCafetal = {        
         cafetalV1Ambiente:{
-            src:'assets/cafetal/audios/ambiente.mp3?n=142',
+            src:'assets/cafetal/audios/ambiente.mp3?n=143',
             buffer:null
         },
         cafetalV2Sevan:{
-            src:'assets/cafetal/audios/v2-se-van.mp3?n=142',
+            src:'assets/cafetal/audios/v2-se-van.mp3?n=143',
             buffer:null
         }
     }
 
     audiosCasa = {        
         casaV1Ambiente:{
-            src:'assets/casa/audios/ambiente.mp3?n=142',
+            src:'assets/casa/audios/ambiente.mp3?n=143',
             buffer:null
         },
         casaV1Musica:{
-            src:'assets/casa/audios/musica.mp3?n=142',
+            src:'assets/casa/audios/musica.mp3?n=143',
             buffer:null
         },
         casaV14ArbolMistico:{
-            src:'assets/casa/audios/v14-arbol-mistico.mp3?n=142',
+            src:'assets/casa/audios/v14-arbol-mistico.mp3?n=143',
             buffer:null
         },
         casaSapito:{
-            src:'assets/casa/audios/sapito1.mp3?n=142',
+            src:'assets/casa/audios/sapito1.mp3?n=143',
             buffer:null
         }
     }
 
     audiosCap3 = {        
         c3V3Buldozer:{
-            src:'assets/cap3/audios/v3-buldozer.mp3?n=142',
+            src:'assets/cap3/audios/v3-buldozer.mp3?n=143',
             buffer:null
         },
         c3V4V8Protesta:{
-            src:'assets/cap3/audios/v4-v8-protesta.mp3?n=142',
+            src:'assets/cap3/audios/v4-v8-protesta.mp3?n=143',
             buffer:null
         },
         c3V6Dinero:{
-            src:'assets/cap3/audios/v6-dinero.mp3?n=142',
+            src:'assets/cap3/audios/v6-dinero.mp3?n=143',
             buffer:null
         },
         c3V9V13Mistico:{
-            src:'assets/cap3/audios/v9-v13-mistico.mp3?n=142',
+            src:'assets/cap3/audios/v9-v13-mistico.mp3?n=143',
             buffer:null
         },
         c3V11Relampago:{
-            src:'assets/cap3/audios/v11-relampago.mp3?n=142',
+            src:'assets/cap3/audios/v11-relampago.mp3?n=143',
             buffer:null
         },
         c3V12Relampago:{
-            src:'assets/cap3/audios/v12-relampago.mp3?n=142',
+            src:'assets/cap3/audios/v12-relampago.mp3?n=143',
             buffer:null
         },
         c3V15Peleas:{
-            src:'assets/cap3/audios/v15-peleas.mp3?n=142',
+            src:'assets/cap3/audios/v15-peleas.mp3?n=143',
             buffer:null
         }     
     }
 
     audiosDefender = {        
         defenderAmbiente:{
-            src:'assets/defender/audios/ambiente.mp3?n=142',
+            src:'assets/defender/audios/ambiente.mp3?n=143',
             buffer:null
         },
     }
 
     audiosDialogar = {        
         ambiente:{
-            src:'assets/dialogar/audios/ambiente.mp3?n=142',
+            src:'assets/dialogar/audios/ambiente.mp3?n=143',
             buffer:null
         },
         v1Pasos:{
-            src:'assets/dialogar/audios/v1-pasos.mp3?n=142',
+            src:'assets/dialogar/audios/v1-pasos.mp3?n=143',
             buffer:null
         },
         v15Llanto:{
-            src:'assets/dialogar/audios/v15-llanto.mp3?n=142',
+            src:'assets/dialogar/audios/v15-llanto.mp3?n=143',
             buffer:null
         },
         v15V27Lluvia:{
-            src:'assets/dialogar/audios/v15-v27-lluvia.mp3?n=142',
+            src:'assets/dialogar/audios/v15-v27-lluvia.mp3?n=143',
             buffer:null
         },
         v18V28Mistico:{
-            src:'assets/dialogar/audios/v18-v28-ambiente-mistico.mp3?n=142',
+            src:'assets/dialogar/audios/v18-v28-ambiente-mistico.mp3?n=143',
             buffer:null
         },
         v23V27Ranas:{
-            src:'assets/dialogar/audios/v23-v27-encuentro-ranas.mp3?n=142',
+            src:'assets/dialogar/audios/v23-v27-encuentro-ranas.mp3?n=143',
             buffer:null
         },
         v29Ranas:{
-            src:'assets/dialogar/audios/v29-ambiente-ranas.mp3?n=142',
+            src:'assets/dialogar/audios/v29-ambiente-ranas.mp3?n=143',
             buffer:null
         },
         v31Mistico:{
-            src:'assets/dialogar/audios/v31-mistico.mp3?n=142',
+            src:'assets/dialogar/audios/v31-mistico.mp3?n=143',
             buffer:null
         },
     }

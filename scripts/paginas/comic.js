@@ -4,7 +4,7 @@ function pintarComic(){
     let divG = cE("div", comicContenedor);
     divG.className = 'comic-menu';
 
-    const imgUrl = window.innerWidth < 421 ? './assets/imgs/header-comic-m.jpg?n=142' : './assets/imgs/header-comic.jpg?n=142';
+    const imgUrl = window.innerWidth < 421 ? './assets/imgs/header-comic-m.jpg?n=143' : './assets/imgs/header-comic.jpg?n=143';
 
     const imgHeader = cE("img", divG);
     imgHeader.className = 'img-header';
@@ -20,7 +20,7 @@ function pintarComic(){
         adjuntarIrACapitulo(divC, capitulo);        
 
         let img = cE("img", divC);
-        img.src = capitulos[capitulo].img + '?n=142';
+        img.src = capitulos[capitulo].img + '?n=143';
     }
 
     pintarFooter(comicContenedor);

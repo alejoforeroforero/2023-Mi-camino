@@ -422,6 +422,6 @@ function defenderDesicion(){
     })
 
     const imgC2 = cE('img', divC2);
-    imgC2.src = './assets/defender/imgs/regresar.png?n=142';
+    imgC2.src = './assets/defender/imgs/regresar.png?n=143';
 }
 

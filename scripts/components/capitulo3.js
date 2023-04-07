@@ -539,7 +539,7 @@ function capitulo3Desicion(){
     })
 
     const imgC1 = cE('img', divC1);
-    imgC1.src = './assets/cap3/imgs/camino1-c3.png?n=142';
+    imgC1.src = './assets/cap3/imgs/camino1-c3.png?n=143';
 
     const pC1 = cE('p', divC1);
     pC1.innerHTML = '1. Unirse a las familias que defienden el bosque';
@@ -552,7 +552,7 @@ function capitulo3Desicion(){
     })
 
     const imgC2 = cE('img', divC2);
-    imgC2.src = './assets/cap3/imgs/camino2-c3.png?n=142';
+    imgC2.src = './assets/cap3/imgs/camino2-c3.png?n=143';
 
     const pC2 = cE('p', divC2);
     pC2.innerHTML = '2. Dialogar con las familias que quieren que la empresa canadiense use la madera del bosque';
@@ -565,5 +565,5 @@ function capitulo3Desicion(){
     a.target = '_Blank';
 
     const imgA = cE('img', a);
-    imgA.src = './assets/cap3/imgs/ayuda.png?n=142';
+    imgA.src = './assets/cap3/imgs/ayuda.png?n=143';
 }

@@ -30,7 +30,7 @@ class Vineta{
             img.className = imgObj.className;
             img.style.visibility = 'hidden';
             img.id = imgObj.className;
-            img.src = imgObj.path + '?n=142';
+            img.src = imgObj.path + '?n=143';
     
             if(img){
                 if(!img.complete){

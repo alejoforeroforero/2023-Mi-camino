@@ -4,7 +4,7 @@ function pintarCreditos(){
     let divG = cE("div", juegosContenedor);
     divG.className = 'creditos-menu';
 
-    const imgUrl = window.innerWidth < 421 ? './assets/imgs/header-creditos-m.jpg?n=142' : './assets/imgs/header-creditos.jpg?n=142';
+    const imgUrl = window.innerWidth < 421 ? './assets/imgs/header-creditos-m.jpg?n=143' : './assets/imgs/header-creditos.jpg?n=143';
 
     const imgHeader = cE("img", divG);
     imgHeader.className = 'img-header';

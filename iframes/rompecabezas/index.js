@@ -223,7 +223,7 @@ function reiniciar(){
         nivel = 4;
     }
 
-    let imgSrc = `2-imagenes/${lista[indice]}.jpg?n=142`;
+    let imgSrc = `2-imagenes/${lista[indice]}.jpg?n=143`;
 
     loadImage(imgSrc, img => 
     {
