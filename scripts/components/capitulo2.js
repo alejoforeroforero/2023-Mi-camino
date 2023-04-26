@@ -417,7 +417,7 @@ function capitulo2Desicion(){
     })
 
     const imgC1 = cE('img', divC1);
-    imgC1.src = './assets/cap2/imgs/camino1-c2.png?n=143';
+    imgC1.src = './assets/cap2/imgs/camino1-c2.png?n=144';
 
     const pC1 = cE('p', divC1);
     pC1.innerHTML = '1. Irse para Risaralda a recoger café con un destino incierto.';
@@ -430,7 +430,7 @@ function capitulo2Desicion(){
     })
 
     const imgC2 = cE('img', divC2);
-    imgC2.src = './assets/cap2/imgs/camino2-c2.png?n=143';
+    imgC2.src = './assets/cap2/imgs/camino2-c2.png?n=144';
 
     const pC2 = cE('p', divC2);
     pC2.innerHTML = '2. Quedarse con su familia para afrontar su boda forzada.';
@@ -443,6 +443,6 @@ function capitulo2Desicion(){
     a.target = '_Blank';
 
     const imgA = cE('img', a);
-    imgA.src = './assets/cap2/imgs/ayuda.png?n=143';
+    imgA.src = './assets/cap2/imgs/ayuda.png?n=144';
 }
 

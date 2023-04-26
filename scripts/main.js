@@ -4,6 +4,7 @@ let nombrePagina;
 let pBottom = 45;
 let timeLines = [];
 let audioManager = null;
+let contenedor;
 let homeContenedor;
 let yaPintoHome = false;
 let comicContenedor;
@@ -34,7 +35,7 @@ function correr(){
 
     pintarHeader(contenedorM);
 
-    const contenedor = cE("div", document.body);
+    contenedor = cE("div", document.body);
     contenedor.className = "contenedor"; 
 
     homeContenedor = cE("div", contenedor);
@@ -103,40 +104,62 @@ function escogerSeccion(){
 
     comicContenedor.style.zIndex = 1;
     comicContenedor.style.opacity = 0;
+    comicContenedor.style.maxHeight = homeContenedor.offsetHeight + 'px';
+    comicContenedor.style.overflow = 'hidden';
 
     juegosContenedor.style.zIndex = 1;
     juegosContenedor.style.opacity = 0;
+    juegosContenedor.style.maxHeight = homeContenedor.offsetHeight + 'px';
+    juegosContenedor.style.overflow = 'hidden';
 
     cap1Contenedor.style.zIndex = 1;
     cap1Contenedor.style.opacity = 0;
+    cap1Contenedor.style.maxHeight = homeContenedor.offsetHeight + 'px';
+    cap1Contenedor.style.overflow = 'hidden';
 
     cap2Contenedor.style.zIndex = 1;
     cap2Contenedor.style.opacity = 0;
+    cap2Contenedor.style.maxHeight = homeContenedor.offsetHeight + 'px';
+    cap2Contenedor.style.overflow = 'hidden';
 
     risaraldaContenedor.style.zIndex = 1;
     risaraldaContenedor.style.opacity = 0;
+    risaraldaContenedor.style.maxHeight = homeContenedor.offsetHeight + 'px';
+    risaraldaContenedor.style.overflow = 'hidden';
 
     cafetalContenedor.style.zIndex = 1;
     cafetalContenedor.style.opacity = 0;
+    cafetalContenedor.style.maxHeight = homeContenedor.offsetHeight + 'px';
+    cafetalContenedor.style.overflow = 'hidden';
 
     casaContenedor.style.zIndex = 1;
     casaContenedor.style.opacity = 0;
+    casaContenedor.style.maxHeight = homeContenedor.offsetHeight + 'px';
+    casaContenedor.style.overflow = 'hidden';
 
     homeContenedor.style.opacity = 0;    
     homeContenedor.style.opacity = 0;
 
     cap3Contenedor.style.zIndex = 1;
     cap3Contenedor.style.opacity = 0;
+    cap3Contenedor.style.maxHeight = homeContenedor.offsetHeight + 'px';
+    cap3Contenedor.style.overflow = 'hidden';
 
     defenderContenedor.style.zIndex = 1;
     defenderContenedor.style.opacity = 0;
+    defenderContenedor.style.maxHeight = homeContenedor.offsetHeight + 'px';
+    defenderContenedor.style.overflow = 'hidden';
 
     dialogarContenedor.style.zIndex = 1;
     dialogarContenedor.style.opacity = 0;
+    dialogarContenedor.style.maxHeight = homeContenedor.offsetHeight + 'px';
+    dialogarContenedor.style.overflow = 'hidden';
 
     if(nombrePagina === '#capitulo1'){
+        cap1Contenedor.style.maxHeight = 'none';
         cap1Contenedor.style.zIndex = 2;
         cap1Contenedor.style.opacity = 1;
+        cap1Contenedor.style.visibility = 'visible';
         audioManager.icono.style.visibility = 'visible';
         if(!entrando){
             if(!audioManager.apagoElAudio){
@@ -151,6 +174,7 @@ function escogerSeccion(){
         }
          
     }else if(nombrePagina === '#capitulo2'){
+        cap2Contenedor.style.maxHeight = 'none';
         cap2Contenedor.style.zIndex = 2;
         cap2Contenedor.style.opacity = 1;
         audioManager.icono.style.visibility = 'visible';
@@ -165,6 +189,7 @@ function escogerSeccion(){
             yaPintoCap2 = true;
         }  
     }else if(nombrePagina === '#risaralda'){
+        risaraldaContenedor.style.maxHeight = 'none';
         risaraldaContenedor.style.zIndex = 2;
         risaraldaContenedor.style.opacity = 1;
         audioManager.icono.style.visibility = 'visible';
@@ -180,6 +205,7 @@ function escogerSeccion(){
             yaPintoRisaralda = true;
         }  
     }else if(nombrePagina === '#cafetal'){
+        cafetalContenedor.style.maxHeight = 'none';
         cafetalContenedor.style.zIndex = 2;
         cafetalContenedor.style.opacity = 1;
         audioManager.icono.style.visibility = 'visible';
@@ -195,6 +221,7 @@ function escogerSeccion(){
             yaPintoCafetal = true;
         }  
     }else if(nombrePagina === '#casa'){
+        casaContenedor.style.maxHeight = 'none';
         casaContenedor.style.zIndex = 2;
         casaContenedor.style.opacity = 1;
         audioManager.icono.style.visibility = 'visible';
@@ -210,6 +237,7 @@ function escogerSeccion(){
             yaPintoCasa = true;
         }  
     }else if(nombrePagina === '#capitulo3'){
+        cap3Contenedor.style.maxHeight = 'none';
         cap3Contenedor.style.zIndex = 2;
         cap3Contenedor.style.opacity = 1;
         audioManager.icono.style.visibility = 'visible';
@@ -224,6 +252,7 @@ function escogerSeccion(){
             yaPintoCap3 = true;
         }  
     }else if(nombrePagina === '#defender'){
+        defenderContenedor.style.maxHeight = 'none';
         defenderContenedor.style.zIndex = 2;
         defenderContenedor.style.opacity = 1;
         audioManager.icono.style.visibility = 'visible';
@@ -238,6 +267,7 @@ function escogerSeccion(){
             yaPintoDefender = true;
         }  
     }else if(nombrePagina === '#dialogar'){
+        dialogarContenedor.style.maxHeight = 'none';
         dialogarContenedor.style.zIndex = 2;
         dialogarContenedor.style.opacity = 1;
         audioManager.icono.style.visibility = 'visible';
@@ -255,61 +285,70 @@ function escogerSeccion(){
         //audioManager.indiceDescarga = 0;
         //audioManager.descargarSonidos('cap1'); 
         audioManager.pararAudios();
+        comicContenedor.style.maxHeight = 'none';
         comicContenedor.style.zIndex = 2;
         comicContenedor.style.opacity = 1; 
         audioManager.icono.style.visibility = 'hidden';  
         pintarComic();
     }else if(nombrePagina === '#juegos'){
         audioManager.pararAudios();
+        juegosContenedor.style.maxHeight = 'none';
         juegosContenedor.style.zIndex = 2;
         juegosContenedor.style.opacity = 1; 
         audioManager.icono.style.visibility = 'hidden';  
         pintarJuegos();
     }else if(nombrePagina === '#salto'){
         audioManager.pararAudios();
+        juegosContenedor.style.maxHeight = 'none';
         juegosContenedor.style.zIndex = 2;
         juegosContenedor.style.opacity = 1; 
         audioManager.icono.style.visibility = 'hidden'; 
         pintarSalto();
     }else if(nombrePagina === '#diferencias'){
         audioManager.pararAudios();
+        juegosContenedor.style.maxHeight = 'none';
         juegosContenedor.style.zIndex = 2;
         juegosContenedor.style.opacity = 1; 
         audioManager.icono.style.visibility = 'hidden';  
         pintarDiferencias();
     }else if(nombrePagina === '#rompecabezas'){
         audioManager.pararAudios();
+        juegosContenedor.style.maxHeight = 'none';
         juegosContenedor.style.zIndex = 2;
         juegosContenedor.style.opacity = 1; 
         audioManager.icono.style.visibility = 'hidden';  
         pintarRompecabezas();
     }else if(nombrePagina === '#actividades'){
         audioManager.pararAudios();
+        juegosContenedor.style.maxHeight = 'none';
         juegosContenedor.style.zIndex = 2;
         juegosContenedor.style.opacity = 1; 
         audioManager.icono.style.visibility = 'hidden';  
         pintarActividades();
     }else if(nombrePagina === '#about'){
         audioManager.pararAudios();
+        juegosContenedor.style.maxHeight = 'none';
         juegosContenedor.style.zIndex = 2;
         juegosContenedor.style.opacity = 1; 
         audioManager.icono.style.visibility = 'hidden';  
         pintarAbout();
     }else if(nombrePagina === '#creditos'){
         audioManager.pararAudios();
+        juegosContenedor.style.maxHeight = 'none';
         juegosContenedor.style.zIndex = 2;
         juegosContenedor.style.opacity = 1; 
         audioManager.icono.style.visibility = 'hidden';  
         pintarCreditos();
-    }else{
+    }else{       
         audioManager.pararAudios();
         homeContenedor.style.zIndex = 2;
         homeContenedor.style.opacity = 1;
+
         audioManager.icono.style.visibility = 'hidden';
         if(!yaPintoHome){
             pintarHome();
             yaPintoHome = true;
-        }     
+        }   
     } 
 }
 

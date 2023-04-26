@@ -95,6 +95,15 @@
     }
 }
 
+.regresar-juegos{
+    width:30px;
+    position: absolute;
+    top:40px;
+    left:10px;
+    z-index: 120;
+    cursor: pointer;
+}
+
 .diferencias{
     margin-top: 40px;
 }

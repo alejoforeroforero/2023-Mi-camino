@@ -4,7 +4,7 @@ function pintarCreditos(){
     let divG = cE("div", juegosContenedor);
     divG.className = 'creditos-menu';
 
-    const imgUrl = window.innerWidth < 421 ? './assets/imgs/header-creditos-m.jpg?n=143' : './assets/imgs/header-creditos.jpg?n=143';
+    const imgUrl = window.innerWidth < 421 ? './assets/imgs/header-creditos-m.jpg?n=144' : './assets/imgs/header-creditos.jpg?n=144';
 
     const imgHeader = cE("img", divG);
     imgHeader.className = 'img-header';
@@ -16,15 +16,23 @@ function pintarCreditos(){
     let divCG = cE("div", divCentro);
     divCG.className = "creditos-c";
 
-    let divC = cE("div", divCG);    
+    // let divC = cE("div", divCG);    
 
-    let p = cE("p", divC);
-    p.innerHTML = "Global Challenges Research Fund (GCRF) <br>"+ 
+    // let p = cE("p", divC);
+    // p.innerHTML = "Global Challenges Research Fund (GCRF) <br>"+ 
+    // "Bournemouth University (BU)<br>"+
+    // "Center for Excellence and Media Practice (CEMP) <br>"+
+    // "Taller de Vida"
+
+    let divCr = cE("div", divCG);
+
+    let cr0 = new CreditosObj();
+    cr0.titulo = 'Una colaboración entre:';
+    cr0.parrafo = "Global Challenges Research Fund (GCRF) <br>"+ 
     "Bournemouth University (BU)<br>"+
     "Center for Excellence and Media Practice (CEMP) <br>"+
     "Taller de Vida"
-
-    let divCr = cE("div", divCG);
+    cr0.pintar(divCr);
 
     let cr1 = new CreditosObj();
     cr1.titulo = 'Dirección del proyecto';

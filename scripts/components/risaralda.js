@@ -162,7 +162,7 @@ function risaraldaDesicion(){
     })
 
     const imgC1 = cE('img', divC1);
-    imgC1.src = './assets/risaralda/imgs/cafetal.png?n=143';
+    imgC1.src = './assets/risaralda/imgs/cafetal.png?n=144';
 
     const pC1 = cE('p', divC1);
     pC1.innerHTML = '1. Quedarse en el cafetal';
@@ -175,7 +175,7 @@ function risaraldaDesicion(){
     })
 
     const imgC2 = cE('img', divC2);
-    imgC2.src = './assets/risaralda/imgs/regresar.png?n=143';
+    imgC2.src = './assets/risaralda/imgs/regresar.png?n=144';
 
     const pC2 = cE('p', divC2);
     pC2.innerHTML = '2. Regresar a casa';
@@ -187,5 +187,5 @@ function risaraldaDesicion(){
     a.target = '_Blank';
 
     const imgA = cE('img', a);
-    imgA.src = './assets/cap2/imgs/ayuda.png?n=143';
+    imgA.src = './assets/cap2/imgs/ayuda.png?n=144';
 }
