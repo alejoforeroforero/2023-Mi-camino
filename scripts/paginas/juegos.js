@@ -4,7 +4,7 @@ function pintarJuegos(){
     let divG = cE("div", juegosContenedor);
     divG.className = 'juegos-menu';
 
-    const imgUrl = window.innerWidth < 421 ? './assets/imgs/header-juegos-m.jpg?n=144' : './assets/imgs/header-juegos.jpg?n=144';
+    const imgUrl = window.innerWidth < 421 ? './assets/imgs/header-juegos-m.jpg?n=145' : './assets/imgs/header-juegos.jpg?n=145';
 
     const imgHeader = cE("img", divG);
     imgHeader.className = 'img-header';
@@ -20,7 +20,7 @@ function pintarJuegos(){
         adjuntarIrAJuego(divC, juego);        
 
         let img = cE("img", divC);
-        img.src = juegos[juego].img + '?n=144';
+        img.src = juegos[juego].img + '?n=145';
     }
 
     pintarFooter(juegosContenedor, true);
@@ -48,7 +48,7 @@ function pintarSalto(){
 
     let iframe = cE("iframe", juegosContenedor);
     iframe.className = 'iframe-salto'
-    iframe.src = './iframes/salto/index.html?n=144';  
+    iframe.src = './iframes/salto/index.html?n=145';  
 }
 
 function pintarDiferencias(){
@@ -60,7 +60,7 @@ function pintarDiferencias(){
     divDiferencias.className = 'diferencias';
     
     let iframe = cE("iframe", divDiferencias);
-    iframe.src = './iframes//diferencias/index.html?n=144';  
+    iframe.src = './iframes//diferencias/index.html?n=145';  
 }
 
 function pintarRompecabezas(){
@@ -76,5 +76,5 @@ function pintarRompecabezas(){
     
     let iframe = cE("iframe", divRompecabeas);
     iframe.className = "iframe-rompecabezas";
-    iframe.src = './iframes//rompecabezas/index.html?n=144';  
+    iframe.src = './iframes//rompecabezas/index.html?n=145';  
 }

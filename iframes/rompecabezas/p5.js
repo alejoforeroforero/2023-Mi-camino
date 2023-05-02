@@ -2509,7 +2509,7 @@
                   {
                     name: 'type',
                     description:
-                      "<p>Built-In: either ARROW, CROSS, HAND, MOVE, TEXT and WAIT\n                              Native CSS properties: 'grab', 'progress', 'cell' etc.\n                              External: path for cursor's images\n                              (Allowed File extensions: .cur, .gif, .jpg, .jpeg, .png?n=144)\n                              For more information on Native CSS cursors and url visit:\n                              <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/cursor\">https://developer.mozilla.org/en-US/docs/Web/CSS/cursor</a></p>\n",
+                      "<p>Built-In: either ARROW, CROSS, HAND, MOVE, TEXT and WAIT\n                              Native CSS properties: 'grab', 'progress', 'cell' etc.\n                              External: path for cursor's images\n                              (Allowed File extensions: .cur, .gif, .jpg, .jpeg, .png?n=145)\n                              For more information on Native CSS cursors and url visit:\n                              <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/cursor\">https://developer.mozilla.org/en-US/docs/Web/CSS/cursor</a></p>\n",
                     type: 'String|Constant'
                   },
                   {
@@ -45150,7 +45150,7 @@
            * @param {String|Constant} type Built-In: either ARROW, CROSS, HAND, MOVE, TEXT and WAIT
            *                               Native CSS properties: 'grab', 'progress', 'cell' etc.
            *                               External: path for cursor's images
-           *                               (Allowed File extensions: .cur, .gif, .jpg, .jpeg, .png?n=144)
+           *                               (Allowed File extensions: .cur, .gif, .jpg, .jpeg, .png?n=145)
            *                               For more information on Native CSS cursors and url visit:
            *                               https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
            * @param {Number}          [x]  the horizontal active spot of the cursor (must be less than 32)
@@ -56327,7 +56327,7 @@
            * transformation matrix of the
            * form:
            *
-           * > <img style="max-width: 150px" src="assets/transformation-matrix.png?n=144"
+           * > <img style="max-width: 150px" src="assets/transformation-matrix.png?n=145"
            * alt="The transformation matrix used when applyMatrix is called"/>
            *
            * @method applyMatrix
@@ -58225,7 +58225,7 @@
            * @example
            * <div class='norender'><code>
            * createImg(
-           *   'https://p5js.org/assets/img/asterisk-01.png?n=144',
+           *   'https://p5js.org/assets/img/asterisk-01.png?n=145',
            *   'the p5 magenta asterisk'
            * );
            * </code></div>
@@ -65857,7 +65857,7 @@
            * "source image" dimensions can be useful when you want to display a
            * subsection of the source image instead of the whole thing. Here's a diagram
            * to explain further:
-           * <img src="assets/drawImage.png?n=144"></img>
+           * <img src="assets/drawImage.png?n=145"></img>
            *
            * @method image
            * @param  {p5.Image|p5.Element} img    the image to display
@@ -65907,7 +65907,7 @@
            * <code>
            * let img;
            * function preload() {
-           *   img = loadImage('assets/gradient.png?n=144');
+           *   img = loadImage('assets/gradient.png?n=145');
            * }
            * function setup() {
            *   // 1. Background image
@@ -66301,7 +66301,7 @@
            * Creates a new <a href="#/p5.Image">p5.Image</a>. A <a href="#/p5.Image">p5.Image</a> is a canvas backed representation of an
            * image.
            *
-           * p5 can display .gif, .jpg and .png?n=144 images. Images may be displayed
+           * p5 can display .gif, .jpg and .png?n=145 images. Images may be displayed
            * in 2D and 3D space. Before an image is used, it must be loaded with the
            * <a href="#/p5/loadImage">loadImage()</a> function. The <a href="#/p5.Image">p5.Image</a> class contains fields for the width and
            * height of the image, as well as an array called <a href="#/p5.Image/pixels">pixels[]</a> that contains the
@@ -66887,7 +66887,7 @@
            * let photo, maskImage;
            * function preload() {
            *   photo = loadImage('assets/rockies.jpg');
-           *   maskImage = loadImage('assets/mask2.png?n=144');
+           *   maskImage = loadImage('assets/mask2.png?n=145');
            * }
            *
            * function setup() {
@@ -69693,13 +69693,13 @@
            *  <div class="norender"><code>
            * // Saves p5.Image as an image
            * img = createImage(10, 10);
-           * save(img, 'myImage.png?n=144');
+           * save(img, 'myImage.png?n=145');
            * </code></div>
            *
            * <div class="norender"><code>
            * // Saves p5.Renderer object as an image
            * obj = createGraphics(100, 100);
-           * save(obj, 'myObject.png?n=144');
+           * save(obj, 'myObject.png?n=145');
            * </code></div>
            *
            * <div class="norender"><code>

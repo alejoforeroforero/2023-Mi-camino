@@ -159,7 +159,7 @@ function cafetalDesicion(){
     })
 
     const imgC2 = cE('img', divC2);
-    imgC2.src = './assets/cafetal/imgs/regresar.png?n=144';
+    imgC2.src = './assets/cafetal/imgs/regresar.png?n=145';
 
     const pC2 = cE('p', divC2);
     pC2.innerHTML = '2. Regresar a casa';

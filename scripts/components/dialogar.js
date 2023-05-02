@@ -1285,7 +1285,7 @@ function preguntasCap3(){
     section.className = 'cap1Preguntas';
 
     const iframeP = cE("iframe", section);
-    iframeP.src = './iframes/preguntas/index.html?n=144&v=3';
+    iframeP.src = './iframes/preguntas/index.html?n=145&v=3';
 }
 
 

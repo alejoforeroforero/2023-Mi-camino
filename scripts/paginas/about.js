@@ -4,7 +4,7 @@ function pintarAbout(){
     let divG = cE("div", juegosContenedor);
     divG.className = 'about-menu';
 
-    const imgUrl = window.innerWidth < 421 ? './assets/imgs/header-about-m.jpg?n=144' : './assets/imgs/header-about.jpg?n=144';
+    const imgUrl = window.innerWidth < 421 ? './assets/imgs/header-about-m.jpg?n=145' : './assets/imgs/header-about.jpg?n=145';
 
     const imgHeader = cE("img", divG);
     imgHeader.className = 'img-header';

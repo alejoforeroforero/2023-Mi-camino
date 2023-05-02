@@ -101,35 +101,37 @@ function escogerSeccion(){
 
     homeContenedor.style.zIndex = 1;
     homeContenedor.style.opacity = 0;
+    homeContenedor.style.maxHeight = 10 + 'px';
 
     comicContenedor.style.zIndex = 1;
     comicContenedor.style.opacity = 0;
-    comicContenedor.style.maxHeight = homeContenedor.offsetHeight + 'px';
+    comicContenedor.style.maxHeight = 10 + 'px';
     comicContenedor.style.overflow = 'hidden';
 
     juegosContenedor.style.zIndex = 1;
     juegosContenedor.style.opacity = 0;
-    juegosContenedor.style.maxHeight = homeContenedor.offsetHeight + 'px';
+    juegosContenedor.style.height = '10px';
+    juegosContenedor.style.maxHeight = 10 + 'px';
     juegosContenedor.style.overflow = 'hidden';
 
     cap1Contenedor.style.zIndex = 1;
     cap1Contenedor.style.opacity = 0;
-    cap1Contenedor.style.maxHeight = homeContenedor.offsetHeight + 'px';
+    cap1Contenedor.style.maxHeight = 10 + 'px';
     cap1Contenedor.style.overflow = 'hidden';
 
     cap2Contenedor.style.zIndex = 1;
     cap2Contenedor.style.opacity = 0;
-    cap2Contenedor.style.maxHeight = homeContenedor.offsetHeight + 'px';
+    cap2Contenedor.style.maxHeight = 10 + 'px';
     cap2Contenedor.style.overflow = 'hidden';
 
     risaraldaContenedor.style.zIndex = 1;
     risaraldaContenedor.style.opacity = 0;
-    risaraldaContenedor.style.maxHeight = homeContenedor.offsetHeight + 'px';
+    risaraldaContenedor.style.maxHeight = 10 + 'px';
     risaraldaContenedor.style.overflow = 'hidden';
 
     cafetalContenedor.style.zIndex = 1;
     cafetalContenedor.style.opacity = 0;
-    cafetalContenedor.style.maxHeight = homeContenedor.offsetHeight + 'px';
+    cafetalContenedor.style.maxHeight = 10 + 'px';
     cafetalContenedor.style.overflow = 'hidden';
 
     casaContenedor.style.zIndex = 1;
@@ -142,17 +144,17 @@ function escogerSeccion(){
 
     cap3Contenedor.style.zIndex = 1;
     cap3Contenedor.style.opacity = 0;
-    cap3Contenedor.style.maxHeight = homeContenedor.offsetHeight + 'px';
+    cap3Contenedor.style.maxHeight = 10 + 'px';
     cap3Contenedor.style.overflow = 'hidden';
 
     defenderContenedor.style.zIndex = 1;
     defenderContenedor.style.opacity = 0;
-    defenderContenedor.style.maxHeight = homeContenedor.offsetHeight + 'px';
+    defenderContenedor.style.maxHeight = 10 + 'px';
     defenderContenedor.style.overflow = 'hidden';
 
     dialogarContenedor.style.zIndex = 1;
     dialogarContenedor.style.opacity = 0;
-    dialogarContenedor.style.maxHeight = homeContenedor.offsetHeight + 'px';
+    dialogarContenedor.style.maxHeight = 10 + 'px';
     dialogarContenedor.style.overflow = 'hidden';
 
     if(nombrePagina === '#capitulo1'){
@@ -292,6 +294,8 @@ function escogerSeccion(){
         pintarComic();
     }else if(nombrePagina === '#juegos'){
         audioManager.pararAudios();
+        homeContenedor.style.display = 'none';
+        juegosContenedor.style.height = 'auto';
         juegosContenedor.style.maxHeight = 'none';
         juegosContenedor.style.zIndex = 2;
         juegosContenedor.style.opacity = 1; 
@@ -299,6 +303,7 @@ function escogerSeccion(){
         pintarJuegos();
     }else if(nombrePagina === '#salto'){
         audioManager.pararAudios();
+        juegosContenedor.style.height = 'auto';
         juegosContenedor.style.maxHeight = 'none';
         juegosContenedor.style.zIndex = 2;
         juegosContenedor.style.opacity = 1; 
@@ -306,6 +311,7 @@ function escogerSeccion(){
         pintarSalto();
     }else if(nombrePagina === '#diferencias'){
         audioManager.pararAudios();
+        juegosContenedor.style.height = 'auto';
         juegosContenedor.style.maxHeight = 'none';
         juegosContenedor.style.zIndex = 2;
         juegosContenedor.style.opacity = 1; 
@@ -313,6 +319,7 @@ function escogerSeccion(){
         pintarDiferencias();
     }else if(nombrePagina === '#rompecabezas'){
         audioManager.pararAudios();
+        juegosContenedor.style.height = 'auto';
         juegosContenedor.style.maxHeight = 'none';
         juegosContenedor.style.zIndex = 2;
         juegosContenedor.style.opacity = 1; 
@@ -320,6 +327,7 @@ function escogerSeccion(){
         pintarRompecabezas();
     }else if(nombrePagina === '#actividades'){
         audioManager.pararAudios();
+        juegosContenedor.style.height = 'auto';
         juegosContenedor.style.maxHeight = 'none';
         juegosContenedor.style.zIndex = 2;
         juegosContenedor.style.opacity = 1; 
@@ -327,6 +335,7 @@ function escogerSeccion(){
         pintarActividades();
     }else if(nombrePagina === '#about'){
         audioManager.pararAudios();
+        juegosContenedor.style.height = 'auto';
         juegosContenedor.style.maxHeight = 'none';
         juegosContenedor.style.zIndex = 2;
         juegosContenedor.style.opacity = 1; 
@@ -334,6 +343,7 @@ function escogerSeccion(){
         pintarAbout();
     }else if(nombrePagina === '#creditos'){
         audioManager.pararAudios();
+        juegosContenedor.style.height = 'auto';
         juegosContenedor.style.maxHeight = 'none';
         juegosContenedor.style.zIndex = 2;
         juegosContenedor.style.opacity = 1; 
@@ -341,6 +351,8 @@ function escogerSeccion(){
         pintarCreditos();
     }else{       
         audioManager.pararAudios();
+        homeContenedor.style.display = 'block';
+        homeContenedor.style.maxHeight = 'none';
         homeContenedor.style.zIndex = 2;
         homeContenedor.style.opacity = 1;
 

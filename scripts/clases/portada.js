@@ -37,7 +37,7 @@ class Portada{
     ponerImagenes = async()=>{ 
          
         for(let i=0; i<this.nImagenes; i++){            
-            let response = await fetch(`${this.path}a${i}.png?n=144`);            
+            let response = await fetch(`${this.path}a${i}.png?n=145`);            
             this.indiceDescarga++;
             let porcentaje = Math.floor((this.indiceDescarga*100)/this.nImagenes);
             this.porcentaje.innerHTML = 'Descargando imágenes <br>' + porcentaje + '%';            
@@ -47,7 +47,7 @@ class Portada{
             const img = cE('img', this.divIP);
             img.className = "portada-imgs";
             img.id = `${this.id}-${i}`;
-            img.src = `${this.path}a${i}.png?n=144`;
+            img.src = `${this.path}a${i}.png?n=145`;
         }
 
         setTimeout(()=>{

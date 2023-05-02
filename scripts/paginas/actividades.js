@@ -4,7 +4,7 @@ function pintarActividades(){
     let divG = cE("div", juegosContenedor);
     divG.className = 'actividades-menu';
 
-    const imgUrl = window.innerWidth < 421 ? './assets/imgs/header-actividades-m.jpg?n=144' :'./assets/imgs/header-actividades.jpg?n=144';
+    const imgUrl = window.innerWidth < 421 ? './assets/imgs/header-actividades-m.jpg?n=145' :'./assets/imgs/header-actividades.jpg?n=145';
 
     const imgHeader = cE("img", divG);
     imgHeader.className = 'img-header';
@@ -21,7 +21,7 @@ function pintarActividades(){
     let a = cE("a", divC);
     a.innerHTML = '';
     a.target = '_blank';
-    a.href = './assets/pdf/unidad-didactica.pdf?n=144';
+    a.href = './assets/pdf/unidad-didactica.pdf?n=145';
 
     let img = cE('img', a);
     img.src = './assets/imgs/descarga-pdf.png'
